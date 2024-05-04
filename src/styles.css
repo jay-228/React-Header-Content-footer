@@ -1,0 +1,185 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Header-part{
+  height:100px;
+  background-color:rgb(13, 34, 41);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+div img{
+  height:60px;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+}
+li a{
+  padding:10px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color:teal;
+}
+li a:hover{
+  color:white;
+}
+.body-part{
+  width:100%;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.img{
+  height:250px;
+  width:45%;
+}
+.img img{
+  height:100%;
+  width:100%;
+}
+p{
+  width:50%;
+}
+.footer{
+  background-color:darkslategray;
+  height:100px;
+  align-items:center;
+}
+form input{
+  margin:10px auto;
+}
+a{
+  color:white;
+}
+.icons{
+  height:30px;
+  width:45%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icons img{
+  height:100%;
+  cursor: pointer;
+}
+
+
+
+
+
+/* newwwww */
+.Header-part {
+  background-color: #f4f4f4;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px; /* Adjust based on your preference */
+  height: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+.content-container {
+  padding: 20px;
+}
+
+.welcome-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.body-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-container {
+  flex: 0 0 50%;
+  margin-right: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-text {
+  flex: 0 0 50%;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+}
+
+.footer-section p {
+  font-size: 16px;
+  padding-left: 120px;
+}
+
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-list li {
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 500px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+}
